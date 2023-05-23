@@ -3,7 +3,7 @@ __author__ = 'Prakasit.S'
 from elasticsearch import Elasticsearch
 import csv
 
-joe = Elasticsearch('http://172.24.4.90:9200')
+joe = Elasticsearch('http://xxx:9200')
 
 response = joe.search(
     index = ["logstash-2015.05.08"],
